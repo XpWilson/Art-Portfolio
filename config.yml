@@ -41,7 +41,7 @@ menu:
       weight: 2
     - identifier: Home
       name: Home
-      url: "https://wilsoncastillo-shaderportfolio.netlify.app"
+      url: "https://wilsoncastillo-technical-art.netlify.app/"
       weight: 1
     - identifier: Archive
       name: Archive
