@@ -1,0 +1,72 @@
+baseURL: https://wilsoncastillo-leveldesign.netlify.app
+languageCode: en-us
+title: Wilson Castillo | Technical Artist Portfolio
+theme: PaperModX
+
+params:
+  homeInfoParams:
+    title: "Hello!"
+    Content: Welcome to my shader portfolio.
+  socialIcons:
+    - name: linkedin
+      url: 'https://www.linkedin.com/in/wilson-castillo-974136199'
+    - name: github
+      url: 'https://github.com/XpWilson'
+    - name: mdi-resume
+      url: 'Resume.pdf'
+    - name: email
+      url: "mailto:wcastillo@proton.me"
+  TocSide: 'right'  # or 'left'
+  EnableInstantClick: true
+  tocopen: true
+      
+cover:
+  linkFullImages: true
+  
+  ShowBreadCrumbs: true
+
+  ShowReadingTime: true
+
+  ShowShareButtons: true
+
+menu:
+  main:
+    - identifier: About Me
+      name: About Me
+      url: /posts/AboutMe
+      weight: 20
+    - identifier: Posts
+      name: Posts
+      url: /posts
+      weight: 2
+    - identifier: Home
+      name: Home
+      url: "https://wilsoncastillo-shaderportfolio.netlify.app"
+      weight: 1
+    - identifier: Archive
+      name: Archive
+      url: /archives
+      weight: 10
+    
+
+privacy:
+  disqus:
+    disable: false
+  googleAnalytics:
+    anonymizeIP: false
+    disable: false
+    respectDoNotTrack: true
+    useSessionStorage: false
+  instagram:
+    disable: false
+    simple: true
+  twitter:
+    disable: false
+    enableDNT: true
+    simple: true
+  vimeo:
+    disable: false
+    enableDNT: false
+    simple: true
+  youtube:
+    privacyEnhanced: true

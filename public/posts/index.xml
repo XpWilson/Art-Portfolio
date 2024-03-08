@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Wilson Castillo | Technical Artist Portfolio</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Wilson Castillo | Technical Artist Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 May 2023 16:16:10 -0400</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Character Toon Shader</title>
+      <link>http://localhost:1313/posts/shaders/toon-shader/</link>
+      <pubDate>Sun, 07 May 2023 16:16:10 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/shaders/toon-shader/</guid>
+      <description>The models used in this demo were created by Hitbear Studio.
+Summary This shader demonstrates a shader I created to give characters a cartoony, or cel-shaded aesthetic. This shader was used in both games I helped create Fate’s Twisted Tower and Fate’s Twisted Mountain. This shader was created using Shadergraph for Unity as with all shader utilities these principles can be transferred to most programs.
+Features Adjustable shadow length &amp;amp; softening lighting Adjustable Outline sizes Comparison Here is a comparison between character models using the standard-lit material versus the Toon shader material.</description>
+      <content:encoded><![CDATA[<p>The models used in this demo were created by <a href="https://assetstore.unity.com/packages/templates/systems/action-rpg-starter-kit-9076">Hitbear Studio</a>.</p>
+<h2 id="summary">Summary</h2>
+<p>This shader demonstrates a shader I created to give characters a cartoony, or cel-shaded aesthetic. This shader was used in both games I helped create Fate’s Twisted Tower and Fate’s Twisted Mountain. This shader was created using Shadergraph for Unity as with all shader utilities these principles can be transferred to most programs.</p>
+<h2 id="features">Features</h2>
+<ol>
+<li>Adjustable shadow length &amp; softening lighting
+<figure>
+        <img loading="lazy" src="/images/Toon/shadows.webp"/> 
+    </figure>
+</li>
+<li>Adjustable Outline sizes
+<figure>
+        <img loading="lazy" src="/images/Toon/Outline.webp"/> 
+    </figure>
+</li>
+</ol>
+<h2 id="comparison">Comparison</h2>
+<p>Here is a comparison between character models using the standard-lit material versus the Toon shader material.
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube-nocookie.com/embed/Y3SXe8plUN8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+</p>
+<p>This shader while mostly designed for characters can also be used for objects so it can give one’s whole environment the cartoony aesthethic.
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube-nocookie.com/embed/ZkInRMH3_d8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+</p>
+<h2 id="tech-used">Tech used</h2>
+<table>
+<thead>
+<tr>
+<th>Shader</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Game Engine</td>
+<td>Unity Engine</td>
+</tr>
+<tr>
+<td>Tool</td>
+<td>URP Shader Graph</td>
+</tr>
+<tr>
+<td>Development Timeframe</td>
+<td>1 month</td>
+</tr>
+</tbody>
+</table>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Simple Scrolling Texture Shader</title>
+      <link>http://localhost:1313/posts/shaders/scrolling-texture/</link>
+      <pubDate>Sat, 06 May 2023 16:16:10 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/shaders/scrolling-texture/</guid>
+      <description>Summary This shader demonstrates a simple yet versatile scrolling texture shader. This shader was used in both games I helped create Fate’s Twisted Tower and Fate’s Twisted Mountain. This shader was created using Shadergraph for Unity as with all shader utilities these principles can be transferred to most programs.
+The shader works by tiling a provided texture across an object’s UV index. The movement of the surface is done by inputting a time-related node to affect an object’s UV offset input.</description>
+      <content:encoded><![CDATA[<h2 id="summary">Summary</h2>
+<p>This shader demonstrates a simple yet versatile scrolling texture shader. This shader was used in both games I helped create Fate’s Twisted Tower and Fate’s Twisted Mountain. This shader was created using Shadergraph for Unity as with all shader utilities these principles can be transferred to most programs.</p>
+<p>The shader works by tiling a provided texture across an object’s UV index. The movement of the surface is done by inputting a time-related node to affect an object’s UV offset input. This can be further controlled by adding a multiplier to the time function so there is finer granularity in terms of controlling the speed of the scroll.</p>
+<p>This shader can prove useful in a variety of contexts such as bodies of water, lava, and boost panels as well. This shader can get the job done in any place that appears to need a scrolling texture.</p>
+<h2 id="example-use-cases">Example use cases:</h2>
+<h4 id="lava-waterfalls">Lava waterfalls</h4>
+<figure>
+    <img loading="lazy" src="/images/Scroll/lavafall.webp"/> 
+</figure>
+
+<h4 id="bodies-of-liquid">Bodies of liquid</h4>
+<p><figure>
+    <img loading="lazy" src="/images/Scroll/lavatrail.webp"/> 
+</figure>
+
+Above example shows a lava lake.</p>
+<h4 id="boost-panels">Boost panels</h4>
+<figure>
+    <img loading="lazy" src="/images/Scroll/arrow2.webp"/> 
+</figure>
+
+<h4 id="backgrounds">Backgrounds</h4>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube-nocookie.com/embed/ft1tTasdPlY" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h2 id="tech-used">Tech used</h2>
+<table>
+<thead>
+<tr>
+<th>Shader</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Game Engine</td>
+<td>Unity Engine</td>
+</tr>
+<tr>
+<td>Tool</td>
+<td>URP Shader Graph</td>
+</tr>
+<tr>
+<td>Development Timeframe</td>
+<td>1 month</td>
+</tr>
+</tbody>
+</table>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Water Shader</title>
+      <link>http://localhost:1313/posts/shaders/water/</link>
+      <pubDate>Fri, 05 May 2023 16:16:10 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/shaders/water/</guid>
+      <description>Summary This is a water shader I created that was used in the game Fate&amp;rsquo;s Twisted Tower. The shader was built using Unity&amp;rsquo;s Shadergraph using the Universal Render Pipeline (URP), but the effect can be recreated with other render pipelines.
+Features The shader itself is customizable with several parameters that can mold it to resemble various types of bodies of water. The shader contains the following features:
+Light Refraction Shoreline Foam Oversea Foam Vertex displacement waves Water depth color change Tech used Shader Game Engine Unity Engine Tool URP Shader Graph Development Timeframe 1 month </description>
+      <content:encoded><![CDATA[<h2 id="summary">Summary</h2>
+<p>This is a water shader I created that was used in the game Fate&rsquo;s Twisted Tower. The shader was built using Unity&rsquo;s Shadergraph using the Universal Render Pipeline (URP), but the effect can be recreated with other render pipelines.</p>
+<p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube-nocookie.com/embed/cEDZVk_Y6S8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+</p>
+<h2 id="features">Features</h2>
+<p>The shader itself is customizable with several parameters that can mold it to resemble various types of bodies of water.
+The shader contains the following features:</p>
+<ul>
+<li>Light Refraction</li>
+<li>Shoreline Foam</li>
+<li>Oversea Foam</li>
+<li>Vertex displacement waves</li>
+<li>Water depth color change</li>
+</ul>
+<p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube-nocookie.com/embed/6LjaJbjOVg0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube-nocookie.com/embed/UQX9I-cRWuc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube-nocookie.com/embed/a5jhNL3fLUw" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+</p>
+<h2 id="tech-used">Tech used</h2>
+<table>
+<thead>
+<tr>
+<th>Shader</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Game Engine</td>
+<td>Unity Engine</td>
+</tr>
+<tr>
+<td>Tool</td>
+<td>URP Shader Graph</td>
+</tr>
+<tr>
+<td>Development Timeframe</td>
+<td>1 month</td>
+</tr>
+</tbody>
+</table>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/posts/aboutme/</link>
+      <pubDate>Fri, 28 Apr 2023 15:16:10 -0400</pubDate>
+      
+      <guid>http://localhost:1313/posts/aboutme/</guid>
+      <description>Hello, my name is Wilson De Jesus Castillo and I adore creating games.
+I am a technical artist with knowledge of using shader-graph for the Unity Engine. I was in charge of establishing the visual aesthetic for Fate’s Twisted Tower (PC) &amp;amp; Fate’s Twisted Mountain (PC). My goal is to continue learning the various pipelines and branches of VFX under the context of game creation.
+If you want to contact me my email is: wcastillo@proton.</description>
+      <content:encoded><![CDATA[<p>Hello, my name is Wilson De Jesus Castillo and I adore creating games.</p>
+<p>I am a technical artist with knowledge of using shader-graph for the Unity Engine. I was in charge of establishing the visual aesthetic for <a href="https://fatestwisted.itch.io/fates-twisted-tower">Fate’s Twisted Tower (PC)</a> &amp; <a href="https://xpoverdrive.itch.io/fates-twisted-mountain">Fate’s Twisted Mountain (PC)</a>. My goal is to continue learning the various pipelines and branches of VFX under the context of game creation.</p>
+<p>If you want to contact me my email is: <a href="mailto:wcastillo@proton.me">wcastillo@proton.me</a>.</p>
+<p>My resume is linked below.</p>
+<p><a href="/Resume.pdf">Resume Link</a></p>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>
